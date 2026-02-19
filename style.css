@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #000000, #0f2027, #203a43);
+  color: white;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 60px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 22px;
+  color: #cccccc;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 18px 45px;
+  background: gold;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: 0.3s ease;
+  box-shadow: 0 0 20px gold;
+}
+
+.btn:hover {
+  background: orange;
+  box-shadow: 0 0 30px orange;
+}
